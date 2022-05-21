@@ -1,0 +1,120 @@
+.card{
+    width: 300px;
+    height: 500px;
+    background-color: rgb(167, 153, 188);
+    border: 2px solid black;
+    border-radius: 30px;
+    margin: 15px 40px;
+    position: relative;
+}
+
+.card-img{
+    width: 100%;
+    object-fit: cover;
+}
+
+h3{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.card-description p{
+    box-sizing: border-box;
+    padding: 10px 20px;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+
+.button{
+    background-color: aquamarine;
+    border: 1px solid lightblue;
+    border: 1px solid;
+    color: #fff;
+    padding: 8px 24px;
+    float: right;
+    border-radius: 10px;
+    margin: 5px 110px;
+    transition: all 1s ease;
+    cursor: pointer;
+    float: right;
+    transition: all 0.1 ease;
+}
+
+.button a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+
+.button:hover{
+     box-shadow: 0 0 20px #a8eb12 0 0 50px #00e486;
+    border: 4px solid yellow;
+    background: #a8eb12;
+    color: #000;
+    transition: box-shadow 3s, border 1.1s, color 3s;
+}
+
+.card2{
+    width: 300px;
+    height: 500px;
+    background-color: rgb(167, 153, 188);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    margin: 15px 40px;
+}
+
+.card-description-shopee{
+    text-align: center;
+    font-size: 12px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.card-img2{
+    width: 100%;
+    object-fit: cover;
+}
+
+h3{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.button2{
+    background: aquamarine;
+    border: 1px solid lightblue;
+    border: 1px solid;
+    color: #fff;
+    border-radius: 10px;
+    float:right;
+    margin: 5px 110px;
+    padding: 8px 24px;
+    cursor: pointer;
+    transition-delay: 0.2s;
+    font-weight: 900;
+    transition: all 0.1 ease;
+    position: relative;
+}
+
+.button2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.button2:hover{
+    box-shadow: 0 0 20px #a8eb12,0 0 40px #00e486;
+    border: 4px solid greenyellow;
+    background: #a8eb12;
+    color: #000;
+    transition: box-shadow 3s, border 1.1s, background 4s, color 3s;
+}
+
+@keyframes pulsate {
+    0%{
+        box-shadow: 
+        0 0 25px #5ddcff 0 0 50px #4e00c2;
+    }
+}
+
+     
